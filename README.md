@@ -6,3 +6,4 @@ drive_square.py write up
     My second function is called turn also part of the Big square function where I used the same methology as my linear function but instead I kept the angular velocity as nonzero. 
     My last function is the run function which calls my frist two functions and I do this in a four loop so that it repeats 4 times to make a square.
 
+![drive_square.GIF.gif](https://github.com/Meganmm1/warmup_project/blob/e83638efbfc3c7371ba83877639ef50a77c08a21/drive_square.GIF.gif)
