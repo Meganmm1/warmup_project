@@ -2,9 +2,11 @@
 
 ## drive_square.py write up
 1. In this portion of the project I intended on making my robot go in a straight line and then turn, both happening for a given period of time. In order to make my robot trace out a square I first created a function that defined the linear motion of the robot. The idea was to get my robot to move foward for about 1 second with no angular velocity and then stop. I then defined a function for the angular motion of the robot which is to be executed after the linear function for about second1 and then stop. Over 4 iterations of these two functions my robot would move and turn to make a square.
-    2. My first function is called linear and is part of the Big square class. I initialized a linear velocity and an angular velocity where my angular velocity is set to zero. I then set up a for loop that iterates through the publish call. I added a sleep call before the publisher to account for lag and then a sleep function after to allow for my next function to run. 
-    My second function is called turn also part of the Big square function where I used the same methology as my linear function but instead I kept the angular velocity as nonzero. 
-    My last function is the run function which calls my frist two functions and I do this in a four loop so that it repeats 4 times to make a square.
+2. My first function is called linear and is part of the Big square class. I initialized a linear velocity and an angular velocity where my angular velocity is set to zero. I then set up a for loop that iterates through the publish call. I added a sleep call before the publisher to account for lag and then a sleep function after to allow for my next function to run. My second function is called turn also part of the Big square function where I used the same methology as my linear function but instead I kept the angular velocity as nonzero. My last function is the run function which calls my frist two functions and I do this in a four loop so that it repeats 4 times to make a square.
+3. GIF:
+
+![drive_square.GIF.gif](https://github.com/Meganmm1/warmup_project/blob/e83638efbfc3c7371ba83877639ef50a77c08a21/drive_square.GIF.gif)
+
 
 
 ## person_follower.py write up
@@ -35,4 +37,4 @@ On this same note in my wall follower code the case where my robot got too close
 
 
 ![drive_square.GIF.gif](https://github.com/Meganmm1/warmup_project/blob/e83638efbfc3c7371ba83877639ef50a77c08a21/drive_square.GIF.gif)
->>>>>>> aee881b53181d5f178038a900c79045cafe7497a
+
