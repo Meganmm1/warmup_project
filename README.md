@@ -12,6 +12,7 @@
 2. In this project I only defined one callback function with different conditionals. My first conditional defined a case for which there was no person to follow then the robot would stay put. My second conditional ensured that the robot would move toward an object directly infront of it, where a range of angles were defined to account for error. My third conditional defines a case where the robot is farther than the fixed distance I set from the person, in which case the robot would move toward and turn depending on the angle at which the person is at. By using proportional control for the angular speed it is ensured that the person stays infront of robot. My fourth conditional ensures that the robot backs away if it passes the fixed distance between it and the person while also using porportional control for the angular speed. My final conditions ensures that if the robot and person are at the fixed distance then the robot won't move.
 
 3. GIF:
+
 ![person_follower.GIF](https://github.com/Meganmm1/warmup_project/blob/0b2ed5f3e00290cb3c84a1653d18a9788f3e4e52/person_follower.GIF)
 
 ## wall_follower.py write up
