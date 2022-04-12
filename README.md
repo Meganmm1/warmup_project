@@ -37,6 +37,3 @@ On this same note in my wall follower code the case where my robot got too close
 - Proportional control == friend: When I originally began this project I did not think to implement proportional control and for many of the angle cases was gonna try and calculate a rate for which my robot should turn but this method turned out to be alot more complicated than I had anticipated. By incorporating proportional control I was able to implemet an easier method at the same time that my robot robot was able to more accurately turn to follow a person and a wall with precision. 
 - Print statements are useful for debugging: For both the person follower and the wall follower I was incorrectly incorporating else if statments that made some of my conditionals not get accessed. I tried adapting the rostopic echo command but so many values printed out that it was not helpful in helping me debug. When I started incorporating print statements I was able to see what part of my code my robot was executing and correctly fix the issues as a result. 
 
-
-![drive_square.GIF.gif](https://github.com/Meganmm1/warmup_project/blob/e83638efbfc3c7371ba83877639ef50a77c08a21/drive_square.GIF.gif)
-
